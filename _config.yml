@@ -18,11 +18,17 @@
 # in the templates via {{ site.myvariable }}.
 
 title: electricfox.xyz
+author: electricfox
 email: thatonebyte@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
   a simple blog for Linux and tech related things, also weekly pictures of foxes.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://electricfox.xyz"
+moving:
+  avatar_url: "https://avatarfiles.alphacoders.com/283/283350.jpg" # avatar in about page
+  about_you: electrician and hobbyist programmer # short description about you in about page
+  date_format: "%b %d" # date format of posts in home page
+  back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
 
 # Build settings
 remote_theme: huangyz0918/moving
