@@ -28,7 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://electricfox.xyz"
 
 # Build settings
-remote_theme: huangyz0918/moving
+remote_theme: tajacks/lightspeed
 plugins:
   - jekyll-feed
 
