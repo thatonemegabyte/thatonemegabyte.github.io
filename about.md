@@ -14,6 +14,11 @@ I'm an electrician and hobbiyist programmer
 * Team Fortress 2
 * Deep Rock Galactic
 
+## My computer:
+
+* CPU: i7 12700k
+* GPU: RX6700XT
+* Debian 12 (bookworm)
 
 ## Foxes!
 
