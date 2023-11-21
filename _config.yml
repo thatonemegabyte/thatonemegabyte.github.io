@@ -31,7 +31,7 @@ moving:
   back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
 
 # Build settings
-remote_theme: huangyz0918/moving
+theme: minima
 plugins:
   - jekyll-feed
 
