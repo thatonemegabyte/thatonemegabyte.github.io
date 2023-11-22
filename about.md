@@ -1,10 +1,13 @@
 ---
-layout: page
+layout: default
 title: bio
 permalink: /about/
 ---
 
-## Hi I'm Byte! 
+
+<img src="/VHCoOzT.jpeg" alt="fop" width="30%"/>
+
+# Hi I'm Byte! 
 
 I'm an electrician and hobbiyist programmer 
 
