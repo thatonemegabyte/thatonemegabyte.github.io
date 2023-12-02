@@ -19,7 +19,6 @@
 
 title: electricfox.xyz
 author: electricfox
-email: thatonebyte@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
   a simple blog for Linux and tech related things, also weekly pictures of foxes.
 baseurl: "" # the subpath of your site, e.g. /blog

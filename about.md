@@ -7,24 +7,16 @@ permalink: /about/
 
 <img src="/VHCoOzT.jpeg" alt="fop" width="30%"/>
 
-# Hi I'm Byte! 
+# Hi I'm Quinn! 
 
-I'm an electrician and hobbiyist programmer 
+I'm an apprentice electrician and hobbiyist programmer in my free time. 
 
+I have a few hobbies but my two favorites have to be 3D Printing and Woodworking!
 
-## Games I enjoy:
+Some of the games that I enjoy playing include Team Fortress 2 and Deep Rock Galactic!
 
-* Team Fortress 2
-* Deep Rock Galactic
+My computer is equipped with an i7-12700K processor, an RX6700XT graphics card, and runs on Debian 12 (Bookworm).
 
-## My computer:
-
-* CPU: i7 12700k
-* GPU: RX6700XT
-* Debian 12 (bookworm)
-
-## Foxes!
-
-If you couldn't tell already, foxes are my favorite animal. But I also like dogs, cats and bees!
+Thanks for reading about me!
 
 [jekyll-organization]: https://github.com/jekyll
