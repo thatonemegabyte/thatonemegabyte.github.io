@@ -1,0 +1,152 @@
+/* General styles */
+body {
+  font-family: sans-serif;
+  background-color: rgb(42, 0, 48);
+  -webkit-text-fill-color: rgb(253, 175, 123); /* Adjusts text color */
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+/* Introduction section */
+.intro {
+  justify-content: center;
+  text-align: center;
+  border: 3px solid;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: black;
+}
+
+/* Welcome content */
+.contentwelcome {
+  border: 2px solid rgb(145, 10, 103);
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgb(60, 7, 83);
+  margin: 10px;
+}
+
+.outerdiv {
+  border: 2px solid rgb(145, 10, 103);
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgb(42, 6, 58);
+  margin: 10px;
+}
+
+/* Profile picture */
+.pfp {
+  border-radius: 50%;
+  border: 2px solid rgb(145, 10, 103);
+}
+
+/* Individual photo */
+#photo {
+  border: 2px solid rgb(145, 10, 103);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(60, 7, 83);
+  color: white;
+}
+
+/* Hyperlinks */
+a {
+  text-decoration: none;
+  -webkit-text-fill-color: magenta; /* Adjusts link color */
+}
+
+/* Social media icons container */
+.flex-container-socials {
+  margin: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(60, 7, 83);
+  justify-content: center;
+}
+
+.flex-container-socials > div {
+  width: 100px;
+  margin: 5px; /* Adjust margin */
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Flexible box container */
+.flex-container {
+  margin: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 10px;
+  margin: 5px; /* Adjust margin */
+  text-align: center;
+  line-height: 1px;
+  font-size: 30px;
+}
+
+/* Flexible box container for social media links */
+.foss a {
+  display: inline-block;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+/* Grid layout */
+.row {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 4px;
+}
+
+.column img {
+  border: 2px solid rgb(145, 10, 103);
+  width: 100%; /* Ensure images cover the entire column */
+  height: 500px; /* Set a fixed height for all images */
+  object-fit: cover; /* Cover the entire space without stretching */
+}
+
+/* Responsive layout for grid */
+@media screen and (max-width: 800px) {
+  .column {
+      flex: 50%;
+      max-width: 100%;
+  }
+}
+
+/* Responsive layout for grid on smaller screens */
+@media screen and (max-width: 600px) {
+  .column {
+      flex: 100%;
+      max-width: 100%;
+  }
+
+}
