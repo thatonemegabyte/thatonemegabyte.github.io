@@ -86,6 +86,12 @@ body {
   }
 }
 
+@media screen and (max-width: 640px) {
+  .social {
+       width: 35%;
+  }
+}
+
 /* Individual photo */
 #photo {
   border: 2px solid rgb(145, 10, 103);
@@ -236,4 +242,52 @@ a {
 /* Hover effect */
 .nav-links a:hover {
   text-decoration: underline;
+}
+
+.popup-menu {
+  display: none;
+  position: absolute;
+  background-color: rgb(60, 7, 83);
+  padding: 10px;
+  top: 60px; /* Adjust this value as needed */
+  right: 10px; /* Adjust this value as needed */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.menu-icon {
+  display: none; /* Hide by default */
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 600px) {
+  .nav-links {
+      display: none; /* Hide navigation links */
+  }
+
+  .menu-icon {
+      display: block; /* Show hamburger icon */
+  }
+
+  /* Show popup menu when hamburger icon is clicked */
+  .popup-menu.active {
+      display: block;
+  }
 }
