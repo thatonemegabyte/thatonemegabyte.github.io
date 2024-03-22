@@ -10,85 +10,55 @@ body {
 
 @keyframes fadeInAnimation {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
 /* Introduction section */
-.intro {
+.intro, .contentwelcome, .bar, .outerdiv {
+  border: 2px solid rgb(145, 10, 103);
+  padding: 10px;
   justify-content: center;
   text-align: center;
-  border: 3px solid;
-  margin: 10px;
   border-radius: 15px;
+  margin: 10px;
+}
+
+.intro {
   background-color: black;
+}
+
+.contentwelcome, .bar {
+  background-color: rgb(60, 7, 83);
 }
 
 /* Welcome content */
 .contentwelcome {
-  border: 2px solid rgb(145, 10, 103);
-  padding: 10px;
-  justify-content: center;
-  text-align: le;
-  border-radius: 15px;
-  background-color: rgb(60, 7, 83);
-  margin: 10px;
-}
-
-.bar {
-  border: 2px solid rgb(145, 10, 103);
-  padding: 10px;
-  justify-content: center;
-  text-align: right;
-  border-radius: 15px;
-  background-color: rgb(60, 7, 83);
-  margin: 10px;
-}
-
-.bartext {
-  padding-right: 1em;
-}
-
-
-
-.outerdiv {
-  border: 2px solid rgb(145, 10, 103);
-  padding: 10px;
-  justify-content: center;
-  text-align: center;
-  border-radius: 15px;
-  background-color: rgb(42, 6, 58);
-  margin: 10px;
+  text-align: center; /* Corrected typo */
 }
 
 /* Profile picture */
 .pfp {
   border-radius: 50%;
   border: 2px solid rgb(145, 10, 103);
-  width: 50%; /* Adjust the width as needed */
   max-width: 150px; /* Limit the maximum width to maintain proportions */
+  width: 50%; /* Adjust the width as needed */
   height: auto; /* Let the height adjust proportionally */
 }
 
 .social {
-  border-radius: 50%;
   width: 25%; /* Adjust the width as needed */
-  max-width: 150px; /* Limit the maximum width to maintain proportions */
-  height: auto; /* Let the height adjust proportionally */
 }
 
 @media screen and (max-width: 640px) {
   .pfp {
-       width: 30%;
+    width: 30%;
   }
-}
-
-@media screen and (max-width: 640px) {
   .social {
-       width: 35%;
+    width: 35%;
   }
 }
 
@@ -123,7 +93,6 @@ a {
   flex-wrap: nowrap;
   background-color: rgb(60, 7, 83);
   justify-content: center;
-  
 }
 
 .flex-container-socials > div {
@@ -136,9 +105,6 @@ a {
 @media screen and (max-width: 480px) {
   .flex-container-socials > div {
     width: 120px;
-    margin: 5px; /* Adjust margin */
-    text-align: center;
-    font-size: 30px;
   }
 }
 
@@ -189,18 +155,17 @@ a {
 /* Responsive layout for grid */
 @media screen and (max-width: 800px) {
   .column {
-      flex: 50%;
-      max-width: 100%;
+    flex: 50%;
+    max-width: 100%;
   }
 }
 
 /* Responsive layout for grid on smaller screens */
 @media screen and (max-width: 600px) {
   .column {
-      flex: 100%;
-      max-width: 100%;
+    flex: 100%;
+    max-width: 100%;
   }
-
 }
 
 /* Navigation bar styles */
@@ -252,19 +217,7 @@ a {
   top: 60px; /* Adjust this value as needed */
   right: 10px; /* Adjust this value as needed */
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-.nav-links {
-  display: flex;
-  align-items: center;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  margin-left: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .menu-icon {
@@ -279,15 +232,15 @@ a {
 /* Media query for small screens */
 @media screen and (max-width: 600px) {
   .nav-links {
-      display: none; /* Hide navigation links */
+    display: none; /* Hide navigation links */
   }
 
   .menu-icon {
-      display: block; /* Show hamburger icon */
+    display: block; /* Show hamburger icon */
   }
 
   /* Show popup menu when hamburger icon is clicked */
   .popup-menu.active {
-      display: block;
+    display: block;
   }
 }
