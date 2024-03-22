@@ -57,6 +57,12 @@ body {
   height: auto; /* Let the height adjust proportionally */
 }
 
+@media screen and (max-width: 640px) {
+  .pfp {
+       width: 30%;
+  }
+}
+
 /* Individual photo */
 #photo {
   border: 2px solid rgb(145, 10, 103);
@@ -99,6 +105,15 @@ a {
   margin: 5px; /* Adjust margin */
   text-align: center;
   font-size: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .flex-container-socials > div {
+    width: 120px;
+    margin: 5px; /* Adjust margin */
+    text-align: center;
+    font-size: 30px;
+  }
 }
 
 /* Flexible box container */
